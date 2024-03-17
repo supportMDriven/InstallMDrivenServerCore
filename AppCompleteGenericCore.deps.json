@@ -3046,6 +3046,7 @@
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
+          "MDriven.SharedInterfaces.WebAssembly": "1.0.0",
           "Microsoft.Data.SqlClient": "5.1.4",
           "Newtonsoft.Json": "13.0.3"
         },
@@ -3151,6 +3152,11 @@
         },
         "compile": {
           "MDriven.Persistence.WebApi.Core.dll": {}
+        }
+      },
+      "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
+        "compile": {
+          "MDriven.SharedInterfaces.WebAssembly.dll": {}
         }
       },
       "TurnkeyInterfaces.core/1.0.0": {
@@ -6466,6 +6472,7 @@
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
+          "MDriven.SharedInterfaces.WebAssembly": "1.0.0",
           "Microsoft.Data.SqlClient": "5.1.4",
           "Newtonsoft.Json": "13.0.3"
         },
@@ -6571,6 +6578,11 @@
         },
         "runtime": {
           "MDriven.Persistence.WebApi.Core.dll": {}
+        }
+      },
+      "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
+        "runtime": {
+          "MDriven.SharedInterfaces.WebAssembly.dll": {}
         }
       },
       "TurnkeyInterfaces.core/1.0.0": {
@@ -8030,6 +8042,11 @@
       "sha512": ""
     },
     "MDriven.Persistence.WebApi.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
