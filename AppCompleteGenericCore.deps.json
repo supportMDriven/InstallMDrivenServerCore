@@ -339,7 +339,6 @@
           "System.Text.Encoding.Reference": "8.0.0.0",
           "System.Text.Encoding.Extensions.Reference": "8.0.0.0",
           "System.Text.Encodings.Web.Reference": "8.0.0.0",
-          "System.Text.Json.Reference": "8.0.0.0",
           "System.Text.RegularExpressions.Reference": "8.0.0.0",
           "System.Threading.Channels.Reference": "8.0.0.0",
           "System.Threading.Reference": "8.0.0.0",
@@ -1708,11 +1707,6 @@
           "System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json.Reference/8.0.0.0": {
-        "compile": {
-          "System.Text.Json.dll": {}
-        }
-      },
       "System.Text.RegularExpressions.Reference/8.0.0.0": {
         "compile": {
           "System.Text.RegularExpressions.dll": {}
@@ -1860,7 +1854,7 @@
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.1",
+          "System.Text.Json": "8.0.4",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
@@ -1874,7 +1868,7 @@
           "Microsoft.Identity.Client.Extensions.Msal": "4.56.0",
           "System.Memory": "4.5.5",
           "System.Security.Cryptography.ProtectedData": "6.0.0",
-          "System.Text.Json": "8.0.1",
+          "System.Text.Json": "8.0.4",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
@@ -2434,7 +2428,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {},
       "Microsoft.Extensions.DependencyModel/3.1.4": {
         "dependencies": {
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
@@ -2554,7 +2548,7 @@
           "Microsoft.IdentityModel.Tokens": "6.27.0",
           "System.Text.Encoding": "4.3.0",
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "compile": {
           "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
@@ -2664,7 +2658,7 @@
           "System.Runtime.Loader": "4.3.0",
           "System.Security.Permissions": "8.0.0",
           "System.Text.Encoding.CodePages": "8.0.0",
-          "System.Text.Json": "8.0.1",
+          "System.Text.Json": "8.0.4",
           "System.Threading.Tasks.Extensions": "4.5.4",
           "ZstdSharp.Port": "0.7.1"
         },
@@ -2865,7 +2859,7 @@
       "System.Memory.Data/1.0.2": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "compile": {
           "lib/netstandard2.0/System.Memory.Data.dll": {}
@@ -3047,9 +3041,12 @@
         }
       },
       "System.Text.Encodings.Web/8.0.0": {},
-      "System.Text.Json/8.0.1": {
+      "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Text.Json.dll": {}
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -3209,7 +3206,7 @@
           "Microsoft.IO.RecyclableMemoryStream": "2.3.2",
           "System.Drawing.Common": "8.0.1",
           "System.Memory": "4.5.5",
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "compile": {
           "MDriven.Interfaces.netStandard.dll": {}
@@ -3652,7 +3649,6 @@
           "System.Text.Encoding.Reference": "8.0.0.0",
           "System.Text.Encoding.Extensions.Reference": "8.0.0.0",
           "System.Text.Encodings.Web.Reference": "8.0.0.0",
-          "System.Text.Json.Reference": "8.0.0.0",
           "System.Text.RegularExpressions.Reference": "8.0.0.0",
           "System.Threading.Channels.Reference": "8.0.0.0",
           "System.Threading.Reference": "8.0.0.0",
@@ -4235,10 +4231,6 @@
             "fileVersion": "8.0.424.16909"
           },
           "System.Text.Encodings.Web.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.424.16909"
-          },
-          "System.Text.Json.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.424.16909"
           },
@@ -4964,7 +4956,7 @@
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.1",
+          "System.Text.Json": "8.0.4",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
@@ -4981,7 +4973,7 @@
           "Microsoft.Identity.Client.Extensions.Msal": "4.56.0",
           "System.Memory": "4.5.5",
           "System.Security.Cryptography.ProtectedData": "6.0.0",
-          "System.Text.Json": "8.0.1",
+          "System.Text.Json": "8.0.4",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
@@ -5713,7 +5705,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {},
       "Microsoft.Extensions.DependencyModel/3.1.4": {
         "dependencies": {
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
@@ -5848,7 +5840,7 @@
           "Microsoft.IdentityModel.Tokens": "6.27.0",
           "System.Text.Encoding": "4.3.0",
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "runtime": {
           "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -5994,7 +5986,7 @@
           "System.Runtime.Loader": "4.3.0",
           "System.Security.Permissions": "8.0.0",
           "System.Text.Encoding.CodePages": "8.0.0",
-          "System.Text.Json": "8.0.1",
+          "System.Text.Json": "8.0.4",
           "System.Threading.Tasks.Extensions": "4.5.4",
           "ZstdSharp.Port": "0.7.1"
         },
@@ -6242,7 +6234,7 @@
       "System.Memory.Data/1.0.2": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "runtime": {
           "lib/netstandard2.0/System.Memory.Data.dll": {
@@ -6454,9 +6446,15 @@
         }
       },
       "System.Text.Encodings.Web/8.0.0": {},
-      "System.Text.Json/8.0.1": {
+      "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31311"
+          }
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -6625,7 +6623,7 @@
           "Microsoft.IO.RecyclableMemoryStream": "2.3.2",
           "System.Drawing.Common": "8.0.1",
           "System.Memory": "4.5.5",
-          "System.Text.Json": "8.0.1"
+          "System.Text.Json": "8.0.4"
         },
         "runtime": {
           "MDriven.Interfaces.netStandard.dll": {}
@@ -8110,12 +8108,12 @@
       "path": "system.text.encodings.web/8.0.0",
       "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
     },
-    "System.Text.Json/8.0.1": {
+    "System.Text.Json/8.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7AWk2za1hSEJBppe/Lg+uDcam2TrDqwIKa9XcPssSwyjC2xa39EKEGul3CO5RWNF+hMuZG4zlBDrvhBdDTg4lg==",
-      "path": "system.text.json/8.0.1",
-      "hashPath": "system.text.json.8.0.1.nupkg.sha512"
+      "sha512": "sha512-bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
+      "path": "system.text.json/8.0.4",
+      "hashPath": "system.text.json.8.0.4.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",
@@ -9611,11 +9609,6 @@
       "sha512": ""
     },
     "System.Text.Encodings.Web.Reference/8.0.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Text.Json.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
