@@ -3155,7 +3155,8 @@
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
-          "MDriven.Net.Http.netStandard": "1.0.0"
+          "MDriven.Net.Http.netStandard": "1.0.0",
+          "Modlr.Plugins.core": "1.0.0"
         },
         "compile": {
           "Eco.Modlr.ModelEditor.NoUI.netstandard.dll": {}
@@ -3327,6 +3328,18 @@
       "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
         "compile": {
           "MDriven.SharedInterfaces.WebAssembly.dll": {}
+        }
+      },
+      "Modlr.Plugins.core/1.0.0": {
+        "dependencies": {
+          "Eco.ModelLayer.netstandard": "1.0.0",
+          "Eco.Modlr.ExtendedModelLayer.netstandard": "1.0.0",
+          "MDriven.Handles.netStandard": "1.0.0",
+          "MDriven.Interfaces.netStandard": "1.0.0",
+          "MDriven.LinqExtender.netStandard": "1.0.0"
+        },
+        "compile": {
+          "Modlr.Plugins.core.dll": {}
         }
       },
       "TurnkeyInterfaces.core/1.0.0": {
@@ -6572,7 +6585,8 @@
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
-          "MDriven.Net.Http.netStandard": "1.0.0"
+          "MDriven.Net.Http.netStandard": "1.0.0",
+          "Modlr.Plugins.core": "1.0.0"
         },
         "runtime": {
           "Eco.Modlr.ModelEditor.NoUI.netstandard.dll": {}
@@ -6744,6 +6758,18 @@
       "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
         "runtime": {
           "MDriven.SharedInterfaces.WebAssembly.dll": {}
+        }
+      },
+      "Modlr.Plugins.core/1.0.0": {
+        "dependencies": {
+          "Eco.ModelLayer.netstandard": "1.0.0",
+          "Eco.Modlr.ExtendedModelLayer.netstandard": "1.0.0",
+          "MDriven.Handles.netStandard": "1.0.0",
+          "MDriven.Interfaces.netStandard": "1.0.0",
+          "MDriven.LinqExtender.netStandard": "1.0.0"
+        },
+        "runtime": {
+          "Modlr.Plugins.core.dll": {}
         }
       },
       "TurnkeyInterfaces.core/1.0.0": {
@@ -8269,6 +8295,11 @@
       "sha512": ""
     },
     "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Modlr.Plugins.core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
