@@ -68,6 +68,7 @@
           "Microsoft.SqlServer.Compact": "4.0.8876.1",
           "Newtonsoft.Json": "13.0.3",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1",
+          "System.Drawing.Common": "8.0.10",
           "System.Text.Encodings.Web": "8.0.0",
           "TurnkeyInterfaces.core": "1.0.0",
           "VistaDB.6": "6.1.2",
@@ -244,9 +245,9 @@
           "System.Globalization.Reference": "8.0.0.0",
           "System.Globalization.Extensions": "8.0.0.0",
           "System.IO.Compression.Brotli": "8.0.0.0",
-          "System.IO.Compression": "8.0.0.0",
+          "System.IO.Compression.Reference": "8.0.0.0",
           "System.IO.Compression.FileSystem": "4.0.0.0",
-          "System.IO.Compression.ZipFile": "8.0.0.0",
+          "System.IO.Compression.ZipFile.Reference": "8.0.0.0",
           "System.IO.Reference": "8.0.0.0",
           "System.IO.FileSystem.AccessControl": "8.0.0.0",
           "System.IO.FileSystem.Reference": "8.0.0.0",
@@ -1228,7 +1229,7 @@
           "System.IO.Compression.Brotli.dll": {}
         }
       },
-      "System.IO.Compression/8.0.0.0": {
+      "System.IO.Compression.Reference/8.0.0.0": {
         "compile": {
           "System.IO.Compression.dll": {}
         }
@@ -1238,7 +1239,7 @@
           "System.IO.Compression.FileSystem.dll": {}
         }
       },
-      "System.IO.Compression.ZipFile/8.0.0.0": {
+      "System.IO.Compression.ZipFile.Reference/8.0.0.0": {
         "compile": {
           "System.IO.Compression.ZipFile.dll": {}
         }
@@ -2692,6 +2693,18 @@
       "runtime.any.System.Text.Encoding/4.3.0": {},
       "runtime.any.System.Text.Encoding.Extensions/4.3.0": {},
       "runtime.any.System.Threading.Tasks/4.3.0": {},
+      "runtime.native.System/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "7.0.4",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
+      "runtime.native.System.IO.Compression/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "7.0.4",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
       "runtime.win.System.Diagnostics.Debug/4.3.0": {},
       "runtime.win.System.IO.FileSystem/4.3.0": {
         "dependencies": {
@@ -2769,7 +2782,7 @@
       },
       "System.Diagnostics.DiagnosticSource/7.0.2": {},
       "System.Diagnostics.EventLog/8.0.0": {},
-      "System.Drawing.Common/8.0.1": {
+      "System.Drawing.Common/8.0.10": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "8.0.0"
         },
@@ -2802,6 +2815,38 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "runtime.any.System.IO": "4.3.0"
+        }
+      },
+      "System.IO.Compression/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "7.0.4",
+          "System.Buffers": "4.5.1",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "runtime.native.System": "4.3.0",
+          "runtime.native.System.IO.Compression": "4.3.0"
+        }
+      },
+      "System.IO.Compression.ZipFile/4.3.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.IO": "4.3.0",
+          "System.IO.Compression": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Text.Encoding": "4.3.0"
         }
       },
       "System.IO.FileSystem/4.3.0": {
@@ -3166,7 +3211,6 @@
       "MDriven.Interfaces.netStandard/1.0.0": {
         "dependencies": {
           "Microsoft.IO.RecyclableMemoryStream": "2.3.2",
-          "System.Drawing.Common": "8.0.1",
           "System.Memory": "4.5.5",
           "System.Text.Json": "8.0.5"
         },
@@ -3180,7 +3224,9 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.SharedInterfaces.WebAssembly": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "System.IO.Compression": "4.3.0",
+          "System.IO.Compression.ZipFile": "4.3.0"
         },
         "compile": {
           "MDriven.LinqExtender.netStandard.dll": {}
@@ -3351,6 +3397,7 @@
           "Microsoft.SqlServer.Compact": "4.0.8876.1",
           "Newtonsoft.Json": "13.0.3",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1",
+          "System.Drawing.Common": "8.0.10",
           "System.Text.Encodings.Web": "8.0.0",
           "TurnkeyInterfaces.core": "1.0.0",
           "VistaDB.6": "6.1.2",
@@ -3527,9 +3574,9 @@
           "System.Globalization.Reference": "8.0.0.0",
           "System.Globalization.Extensions": "8.0.0.0",
           "System.IO.Compression.Brotli": "8.0.0.0",
-          "System.IO.Compression": "8.0.0.0",
+          "System.IO.Compression.Reference": "8.0.0.0",
           "System.IO.Compression.FileSystem": "4.0.0.0",
-          "System.IO.Compression.ZipFile": "8.0.0.0",
+          "System.IO.Compression.ZipFile.Reference": "8.0.0.0",
           "System.IO.Reference": "8.0.0.0",
           "System.IO.FileSystem.AccessControl": "8.0.0.0",
           "System.IO.FileSystem.Reference": "8.0.0.0",
@@ -6070,6 +6117,18 @@
       "runtime.any.System.Text.Encoding/4.3.0": {},
       "runtime.any.System.Text.Encoding.Extensions/4.3.0": {},
       "runtime.any.System.Threading.Tasks/4.3.0": {},
+      "runtime.native.System/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "7.0.4",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
+      "runtime.native.System.IO.Compression/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "7.0.4",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
       "runtime.win.System.Diagnostics.Debug/4.3.0": {},
       "runtime.win.System.IO.FileSystem/4.3.0": {
         "dependencies": {
@@ -6153,14 +6212,14 @@
       },
       "System.Diagnostics.DiagnosticSource/7.0.2": {},
       "System.Diagnostics.EventLog/8.0.0": {},
-      "System.Drawing.Common/8.0.1": {
+      "System.Drawing.Common/8.0.10": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/System.Drawing.Common.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58006"
+            "fileVersion": "8.0.1024.46803"
           }
         }
       },
@@ -6192,6 +6251,38 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "runtime.any.System.IO": "4.3.0"
+        }
+      },
+      "System.IO.Compression/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "7.0.4",
+          "System.Buffers": "4.5.1",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "runtime.native.System": "4.3.0",
+          "runtime.native.System.IO.Compression": "4.3.0"
+        }
+      },
+      "System.IO.Compression.ZipFile/4.3.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.IO": "4.3.0",
+          "System.IO.Compression": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Text.Encoding": "4.3.0"
         }
       },
       "System.IO.FileSystem/4.3.0": {
@@ -6598,7 +6689,6 @@
       "MDriven.Interfaces.netStandard/1.0.0": {
         "dependencies": {
           "Microsoft.IO.RecyclableMemoryStream": "2.3.2",
-          "System.Drawing.Common": "8.0.1",
           "System.Memory": "4.5.5",
           "System.Text.Json": "8.0.5"
         },
@@ -6612,7 +6702,9 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.SharedInterfaces.WebAssembly": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
-          "Newtonsoft.Json": "13.0.3"
+          "Newtonsoft.Json": "13.0.3",
+          "System.IO.Compression": "4.3.0",
+          "System.IO.Compression.ZipFile": "4.3.0"
         },
         "runtime": {
           "MDriven.LinqExtender.netStandard.dll": {}
@@ -7690,6 +7782,20 @@
       "path": "runtime.any.system.threading.tasks/4.3.0",
       "hashPath": "runtime.any.system.threading.tasks.4.3.0.nupkg.sha512"
     },
+    "runtime.native.System/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
+      "path": "runtime.native.system/4.3.0",
+      "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Compression/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
+      "path": "runtime.native.system.io.compression/4.3.0",
+      "hashPath": "runtime.native.system.io.compression.4.3.0.nupkg.sha512"
+    },
     "runtime.win.System.Diagnostics.Debug/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -7788,12 +7894,12 @@
       "path": "system.diagnostics.eventlog/8.0.0",
       "hashPath": "system.diagnostics.eventlog.8.0.0.nupkg.sha512"
     },
-    "System.Drawing.Common/8.0.1": {
+    "System.Drawing.Common/8.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x0rAZECxIGx/YVjN28YRdpqka0+H7YMN9741FUDzipXPDzesd60gef/LI0ZCOcYSDsacTLTHvMAvxHG+TjbNNQ==",
-      "path": "system.drawing.common/8.0.1",
-      "hashPath": "system.drawing.common.8.0.1.nupkg.sha512"
+      "sha512": "sha512-MdajRp3P+FOlThgY6FBjAqnmLiVl5t2yWEC/2AsDMqx1zYbJG3G5TnscFBQ4obqcaGqvN5UnhQHSFaJFG2HftQ==",
+      "path": "system.drawing.common/8.0.10",
+      "hashPath": "system.drawing.common.8.0.10.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
@@ -7815,6 +7921,20 @@
       "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.Compression/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YHndyoiV90iu4iKG115ibkhrG+S3jBm8Ap9OwoUAzO5oPDAWcr0SFwQFm0HjM8WkEZWo0zvLTyLmbvTkW1bXgg==",
+      "path": "system.io.compression/4.3.0",
+      "hashPath": "system.io.compression.4.3.0.nupkg.sha512"
+    },
+    "System.IO.Compression.ZipFile/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G4HwjEsgIwy3JFBduZ9quBkAu+eUwjIdJleuNSgmUojbH6O3mlvEIme+GHx/cLlTAPcrnnL7GqvB9pTlWRfhOg==",
+      "path": "system.io.compression.zipfile/4.3.0",
+      "hashPath": "system.io.compression.zipfile.4.3.0.nupkg.sha512"
     },
     "System.IO.FileSystem/4.3.0": {
       "type": "package",
@@ -9096,7 +9216,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.IO.Compression/8.0.0.0": {
+    "System.IO.Compression.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -9106,7 +9226,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.IO.Compression.ZipFile/8.0.0.0": {
+    "System.IO.Compression.ZipFile.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
