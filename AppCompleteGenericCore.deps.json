@@ -3279,7 +3279,7 @@
           "MDriven.Interfaces.netStandard": "7.2.0.16408"
         },
         "compile": {
-          "MDriven.Persistence.netStandard.dll": {}
+          "MDriven.Persistence.NetStandard.dll": {}
         }
       },
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
@@ -6763,7 +6763,7 @@
           "MDriven.Interfaces.netStandard": "7.2.0.16408"
         },
         "runtime": {
-          "MDriven.Persistence.netStandard.dll": {}
+          "MDriven.Persistence.NetStandard.dll": {}
         }
       },
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
