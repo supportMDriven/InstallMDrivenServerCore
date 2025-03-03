@@ -3350,7 +3350,6 @@
       },
       "TurnkeyInterfaces.core/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "System.Diagnostics.Debug": "4.3.0",
           "System.IO.FileSystem": "4.3.0",
           "System.Runtime.Extensions": "4.3.1",
@@ -6826,7 +6825,6 @@
       },
       "TurnkeyInterfaces.core/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "System.Diagnostics.Debug": "4.3.0",
           "System.IO.FileSystem": "4.3.0",
           "System.Runtime.Extensions": "4.3.1",
