@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "Startup.htm",
+      "AssetFile": "Startup.htm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 06:45:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns="
+        }
+      ]
+    },
+    {
+      "Route": "Startup.l5ajf8vfk5.htm",
+      "AssetFile": "Startup.htm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 06:45:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5ajf8vfk5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns="
+        },
+        {
+          "Name": "label",
+          "Value": "Startup.htm"
+        }
+      ]
+    }
+  ]
+}
