@@ -48,11 +48,11 @@
           "MDriven.MVC.Core": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.10",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.4",
@@ -67,6 +67,8 @@
           "Microsoft.NETCore.Platforms": "7.0.4",
           "Microsoft.SqlServer.Compact": "4.0.8876.1",
           "Newtonsoft.Json": "13.0.3",
+          "SkiaSharp": "3.119.0",
+          "SkiaSharp.NativeAssets.Linux": "3.119.0",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1",
           "System.Drawing.Common": "8.0.10",
           "System.Text.Encodings.Web": "8.0.0",
@@ -2761,6 +2763,18 @@
           "System.Private.Uri": "4.3.0"
         }
       },
+      "SkiaSharp/3.119.0": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.119.0",
+          "SkiaSharp.NativeAssets.macOS": "3.119.0"
+        },
+        "compile": {
+          "ref/net8.0/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/3.119.0": {},
+      "SkiaSharp.NativeAssets.macOS/3.119.0": {},
+      "SkiaSharp.NativeAssets.Win32/3.119.0": {},
       "System.Buffers/4.5.1": {},
       "System.ClientModel/1.0.0": {
         "dependencies": {
@@ -3139,7 +3153,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0"
+          "MDriven.Persistence.NetStandard": "1.0.0"
         },
         "compile": {
           "AppCompleteGeneric.EcoSpace.netstandard.dll": {}
@@ -3293,14 +3307,14 @@
       "MDriven.Persistence.MySQL.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MySql.Data": "8.3.0"
         },
         "compile": {
           "MDriven.Persistence.MySQL.NetStandard.dll": {}
         }
       },
-      "MDriven.Persistence.netStandard/1.0.0": {
+      "MDriven.Persistence.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0"
@@ -3312,7 +3326,7 @@
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Npgsql": "8.0.5"
         },
         "compile": {
@@ -3323,7 +3337,7 @@
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.SqlServer.Types": "14.0.1016.290",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1"
@@ -3335,7 +3349,7 @@
       "MDriven.Persistence.VistaDB.netstandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "VistaDB.6": "6.1.2"
         },
         "compile": {
@@ -3348,7 +3362,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.AspNetCore.Html.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
@@ -3401,11 +3415,11 @@
           "MDriven.MVC.Core": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.10",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.4",
@@ -3420,6 +3434,8 @@
           "Microsoft.NETCore.Platforms": "7.0.4",
           "Microsoft.SqlServer.Compact": "4.0.8876.1",
           "Newtonsoft.Json": "13.0.3",
+          "SkiaSharp": "3.119.0",
+          "SkiaSharp.NativeAssets.Linux": "3.119.0",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1",
           "System.Drawing.Common": "8.0.10",
           "System.Text.Encodings.Web": "8.0.0",
@@ -6172,6 +6188,27 @@
           "System.Private.Uri": "4.3.0"
         }
       },
+      "SkiaSharp/3.119.0": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.119.0",
+          "SkiaSharp.NativeAssets.macOS": "3.119.0"
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.dll": {
+            "assemblyVersion": "3.119.0.0",
+            "fileVersion": "3.119.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/3.119.0": {},
+      "SkiaSharp.NativeAssets.macOS/3.119.0": {},
+      "SkiaSharp.NativeAssets.Win32/3.119.0": {
+        "native": {
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.ClientModel/1.0.0": {
         "dependencies": {
@@ -6601,7 +6638,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0"
+          "MDriven.Persistence.NetStandard": "1.0.0"
         },
         "runtime": {
           "AppCompleteGeneric.EcoSpace.netstandard.dll": {
@@ -6791,7 +6828,7 @@
       "MDriven.Persistence.MySQL.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MySql.Data": "8.3.0"
         },
         "runtime": {
@@ -6801,22 +6838,21 @@
           }
         }
       },
-      "MDriven.Persistence.netStandard/1.0.0": {
+      "MDriven.Persistence.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0"
         },
         "runtime": {
           "MDriven.Persistence.netStandard.dll": {
-            "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16830"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Npgsql": "8.0.5"
         },
         "runtime": {
@@ -6830,7 +6866,7 @@
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.SqlServer.Types": "14.0.1016.290",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1"
@@ -6845,7 +6881,7 @@
       "MDriven.Persistence.VistaDB.netstandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "VistaDB.6": "6.1.2"
         },
         "runtime": {
@@ -6861,7 +6897,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.AspNetCore.Html.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
@@ -7888,6 +7924,34 @@
       "path": "runtime.win.system.runtime.extensions/4.3.0",
       "hashPath": "runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512"
     },
+    "SkiaSharp/3.119.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gR9yVoOta2Mc1Rxt15LD65AckfHMfwjIs/3kkD59C9bT2nYYISsE6uz3t4aMPNHA6CgsIL0Ssn+jE5OVilZ1yw==",
+      "path": "skiasharp/3.119.0",
+      "hashPath": "skiasharp.3.119.0.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/3.119.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oBvfueHtYGTmVHkVebZ6lMYN5nCXR/eN5e7a9VGHca1Z0bt8G5QGLtsjPA+hJ30ZK2wq3i02Zoej2aZDIpvcHA==",
+      "path": "skiasharp.nativeassets.linux/3.119.0",
+      "hashPath": "skiasharp.nativeassets.linux.3.119.0.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/3.119.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YE1vNn0Nyw2PWtv7hw1PYkKJO0itFiQp9vSqGppZUKzQJqwp28a2jgdCMPfYtOiR8KCnDgZqQoynqJRRaE2ZVg==",
+      "path": "skiasharp.nativeassets.macos/3.119.0",
+      "hashPath": "skiasharp.nativeassets.macos.3.119.0.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/3.119.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IwC9yx36lOdXVT2DjgmWHl1qkVspfj8ctd4+li8CNnvqdfaTolXCOh6TLznURcPAvzatx9K/tLOB7zT6T8EA9w==",
+      "path": "skiasharp.nativeassets.win32/3.119.0",
+      "hashPath": "skiasharp.nativeassets.win32.3.119.0.nupkg.sha512"
+    },
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
@@ -8387,7 +8451,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MDriven.Persistence.netStandard/1.0.0": {
+    "MDriven.Persistence.NetStandard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
