@@ -1,0 +1,213 @@
+﻿body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#viewmodelSection {
+  width: 100%;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+  white-space: normal;
+}
+
+
+.smalllogo {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+select,
+textarea,
+button,
+input {
+  max-width: unset;
+  width: 100%;
+}
+
+  input[type="checkbox"] {
+    width: unset;
+  }
+
+
+
+.navbar-inverse {
+  background-color: white;
+}
+
+  .navbar-inverse .navbar-brand {
+    color: black;
+  }
+
+    .navbar-inverse .navbar-brand:hover,
+    .navbar-inverse .navbar-brand:focus {
+      color: black;
+      background-color: transparent;
+    }
+
+
+  .navbar-inverse .navbar-nav > li > a {
+    color: black;
+  }
+
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus {
+      background-color: black;
+      color: white;
+    }
+
+.navbar-toggle {
+  max-width: 40px;
+}
+
+
+.tk-data-table {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  min-height: 90px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.tk-data-table__native {
+  width: 100%;
+}
+
+.tk-data-table.ctGridMidAirY .tk-data-table__content {
+  height: 100%;
+}
+
+.tk-data-table.ctGridYBottom .tk-data-table__content {
+  height: 100%;
+}
+
+.tk-data-table__content {
+  border-color: #dadce0;
+}
+
+.tk-data-table__content {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  border-radius: 4px;
+  border: 1px solid #dadce0;
+}
+
+.tk-text-field,
+.tk-float-field,
+.tk-number-field,
+.tk-datepicker {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tk-button.NoLabel {
+  padding: calc(1rem * 1.5 + 5px) 5px 5px 5px;
+}
+
+
+
+
+.tk-checkbox__label {
+  vertical-align: top;
+  margin-left: 5px;
+  font-weight: unset;
+}
+
+h1, .h1 {
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.tk-label,
+.tk-data-table__label {
+  margin-bottom: 0px;
+  font-weight: unset;
+  font-size: 12px;
+}
+
+.tk-data-table__cell .tk-checkbox__inner .tk-checkbox__content .tk-checkbox__interactive {
+  height: 10px;
+  margin-top: -19px;
+}
+
+.tk-data-table__cell .tk-checkbox__inner {
+  margin-top: 3px;
+}
+
+.tk-data-table__cell {
+  font-size: 12px;
+}
+
+
+.tk-select,
+.tk-checkbox,
+.tk-static-text,
+.tk-textarea {
+  padding: 5px;
+}
+
+.tk-data-table__header-cell {
+  font-size: 9px;
+  font-weight: 700;
+  background-color: lightsteelblue;
+}
+
+.vmCurrentRow {
+  background-color: Highlight;
+  color: white;
+}
+
+.vmSelectedRow {
+  background-color: Highlight;
+  color: white;
+}
+
+#SubmitButton {
+  padding: 5px;
+  margin: 5px;
+  background-color: Highlight;
+  width: 50%;
+}
+
+
+
+.tk-data-table__seekmore {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.tk-data-table__seekmore {
+  height: 56px;
+  height: var(--data-table-row-height, 56px);
+}
+
+.tk-button__seekmore {
+  font-size: 1rem;
+  width: 25px;
+}
+
+.tk-data-table__cell img {
+  max-height: 30px;
+}
