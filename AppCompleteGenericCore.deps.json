@@ -48,11 +48,11 @@
           "MDriven.MVC.Core": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.10",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.4",
@@ -3125,7 +3125,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.3"
         },
         "compile": {
@@ -3285,26 +3285,26 @@
       "MDriven.Persistence.MySQL.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MySql.Data": "8.3.0"
         },
         "compile": {
           "MDriven.Persistence.MySQL.NetStandard.dll": {}
         }
       },
-      "MDriven.Persistence.netStandard/1.0.0": {
+      "MDriven.Persistence.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0"
         },
         "compile": {
-          "MDriven.Persistence.netStandard.dll": {}
+          "MDriven.Persistence.NetStandard.dll": {}
         }
       },
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Npgsql": "8.0.5"
         },
         "compile": {
@@ -3315,7 +3315,7 @@
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.SqlServer.Types": "14.0.1016.290",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1"
@@ -3327,7 +3327,7 @@
       "MDriven.Persistence.VistaDB.netstandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "VistaDB.6": "6.1.2"
         },
         "compile": {
@@ -3340,7 +3340,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.AspNetCore.Html.Abstractions": "2.3.0",
           "Microsoft.AspNetCore.Http": "2.3.0",
           "Microsoft.AspNetCore.Mvc": "2.3.0",
@@ -3393,11 +3393,11 @@
           "MDriven.MVC.Core": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.10",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.4",
@@ -6620,7 +6620,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.3"
         },
         "runtime": {
@@ -6658,7 +6658,7 @@
         "runtime": {
           "Eco.ModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6672,7 +6672,7 @@
         "runtime": {
           "Eco.Modlr.ExtendedModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6690,7 +6690,7 @@
         "runtime": {
           "Eco.Modlr.ModelEditor.NoUI.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6725,7 +6725,7 @@
         "runtime": {
           "MDriven.ASPNETIdentity.core.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6740,7 +6740,7 @@
         "runtime": {
           "MDriven.Handles.netStandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6753,7 +6753,7 @@
         "runtime": {
           "MDriven.Interfaces.netStandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6770,7 +6770,7 @@
         "runtime": {
           "MDriven.LinqExtender.netStandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6792,7 +6792,7 @@
         "runtime": {
           "MDriven.MVC.Core.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6809,39 +6809,39 @@
         "runtime": {
           "MDriven.Net.Http.netStandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
       "MDriven.Persistence.MySQL.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MySql.Data": "8.3.0"
         },
         "runtime": {
           "MDriven.Persistence.MySQL.NetStandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
-      "MDriven.Persistence.netStandard/1.0.0": {
+      "MDriven.Persistence.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0"
         },
         "runtime": {
-          "MDriven.Persistence.netStandard.dll": {
+          "MDriven.Persistence.NetStandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Npgsql": "8.0.5"
         },
         "runtime": {
@@ -6855,7 +6855,7 @@
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.SqlServer.Types": "14.0.1016.290",
           "System.Data.SqlServerCe_unofficial": "4.0.8482.1"
@@ -6863,20 +6863,20 @@
         "runtime": {
           "MDriven.Persistence.SqlServer.netStandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
       "MDriven.Persistence.VistaDB.netstandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "VistaDB.6": "6.1.2"
         },
         "runtime": {
           "MDriven.Persistence.VistaDB.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6886,7 +6886,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.AspNetCore.Html.Abstractions": "2.3.0",
           "Microsoft.AspNetCore.Http": "2.3.0",
           "Microsoft.AspNetCore.Mvc": "2.3.0",
@@ -6895,7 +6895,7 @@
         "runtime": {
           "MDriven.Persistence.WebApi.Core.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6903,7 +6903,7 @@
         "runtime": {
           "MDriven.SharedInterfaces.WebAssembly.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -6918,7 +6918,7 @@
         "runtime": {
           "Modlr.Plugins.core.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.16942"
+            "fileVersion": "7.2.0.16943"
           }
         }
       },
@@ -8433,7 +8433,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MDriven.Persistence.netStandard/1.0.0": {
+    "MDriven.Persistence.NetStandard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
