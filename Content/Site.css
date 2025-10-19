@@ -211,3 +211,100 @@ h1, .h1 {
 .tk-data-table__cell img {
   max-height: 30px;
 }
+
+
+/* new styles for blazor below*/
+.dropdown__menu {
+  display: none;
+  margin: 0;
+  padding: 5px 0px 5px 30px;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: "Roboto";
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  z-index: 1000;
+}
+
+.open .dropdown__menu {
+  display: flex;
+}
+
+.dropdown__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.dropdown__link {
+  padding: 10px 15px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  font-size: 0.875rem;
+  font-weight: 400;
+  white-space: nowrap;
+  text-decoration: none;
+  -webkit-transition: background-color 200ms ease-out;
+  transition: background-color 200ms ease-out;
+}
+
+  .dropdown__link disabled, [disabled] {
+    color: #797979;
+    cursor: not-allowed;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .dropdown__link:hover, .dropdown__link:focus {
+    background: none;
+  }
+
+
+/**** Nested dropdown styles ****/
+.dropdown--nested {
+  margin-left: 10px;
+}
+
+.dropdown__item.dropdown {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+  .dropdown__item.dropdown .dropdown__link::after {
+    display: inline-block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+
+  .dropdown__item.dropdown:not(.open) .dropdown--nested {
+    display: none;
+  }
+
+.divider {
+  height: 1px;
+  margin: 1px 0;
+  overflow: hidden;
+  background-color: #797979;
+}
