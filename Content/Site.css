@@ -1,0 +1,310 @@
+﻿body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#viewmodelSection {
+  width: 100%;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+  white-space: normal;
+}
+
+
+.smalllogo {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+select,
+textarea,
+button,
+input {
+  max-width: unset;
+  width: 100%;
+}
+
+  input[type="checkbox"] {
+    width: unset;
+  }
+
+
+
+.navbar-inverse {
+  background-color: white;
+}
+
+  .navbar-inverse .navbar-brand {
+    color: black;
+  }
+
+    .navbar-inverse .navbar-brand:hover,
+    .navbar-inverse .navbar-brand:focus {
+      color: black;
+      background-color: transparent;
+    }
+
+
+  .navbar-inverse .navbar-nav > li > a {
+    color: black;
+  }
+
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus {
+      background-color: black;
+      color: white;
+    }
+
+.navbar-toggle {
+  max-width: 40px;
+}
+
+
+.tk-data-table {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  min-height: 90px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.tk-data-table__native {
+  width: 100%;
+}
+
+.tk-data-table.ctGridMidAirY .tk-data-table__content {
+  height: 100%;
+}
+
+.tk-data-table.ctGridYBottom .tk-data-table__content {
+  height: 100%;
+}
+
+.tk-data-table__content {
+  border-color: #dadce0;
+}
+
+.tk-data-table__content {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  border-radius: 4px;
+  border: 1px solid #dadce0;
+}
+
+.tk-text-field,
+.tk-float-field,
+.tk-number-field,
+.tk-datepicker {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tk-button.NoLabel {
+  padding: calc(1rem * 1.5 + 5px) 5px 5px 5px;
+}
+
+
+
+
+.tk-checkbox__label {
+  vertical-align: top;
+  margin-left: 5px;
+  font-weight: unset;
+}
+
+h1, .h1 {
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.tk-label,
+.tk-data-table__label {
+  margin-bottom: 0px;
+  font-weight: unset;
+  font-size: 12px;
+}
+
+.tk-data-table__cell .tk-checkbox__inner .tk-checkbox__content .tk-checkbox__interactive {
+  height: 10px;
+  margin-top: -19px;
+}
+
+.tk-data-table__cell .tk-checkbox__inner {
+  margin-top: 3px;
+}
+
+.tk-data-table__cell {
+  font-size: 12px;
+}
+
+
+.tk-select,
+.tk-checkbox,
+.tk-static-text,
+.tk-textarea {
+  padding: 5px;
+}
+
+.tk-data-table__header-cell {
+  font-size: 9px;
+  font-weight: 700;
+  background-color: lightsteelblue;
+}
+
+.vmCurrentRow {
+  background-color: Highlight;
+  color: white;
+}
+
+.vmSelectedRow {
+  background-color: Highlight;
+  color: white;
+}
+
+#SubmitButton {
+  padding: 5px;
+  margin: 5px;
+  background-color: Highlight;
+  width: 50%;
+}
+
+
+
+.tk-data-table__seekmore {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.tk-data-table__seekmore {
+  height: 56px;
+  height: var(--data-table-row-height, 56px);
+}
+
+.tk-button__seekmore {
+  font-size: 1rem;
+  width: 25px;
+}
+
+.tk-data-table__cell img {
+  max-height: 30px;
+}
+
+
+/* new styles for blazor below*/
+.dropdown__menu {
+  display: none;
+  margin: 0;
+  padding: 5px 0px 5px 30px;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: "Roboto";
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  z-index: 1000;
+}
+
+.open .dropdown__menu {
+  display: flex;
+}
+
+.dropdown__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.dropdown__link {
+  padding: 10px 15px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  font-size: 0.875rem;
+  font-weight: 400;
+  white-space: nowrap;
+  text-decoration: none;
+  -webkit-transition: background-color 200ms ease-out;
+  transition: background-color 200ms ease-out;
+}
+
+  .dropdown__link disabled, [disabled] {
+    color: #797979;
+    cursor: not-allowed;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .dropdown__link:hover, .dropdown__link:focus {
+    background: none;
+  }
+
+
+/**** Nested dropdown styles ****/
+.dropdown--nested {
+  margin-left: 10px;
+}
+
+.dropdown__item.dropdown {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+  .dropdown__item.dropdown .dropdown__link::after {
+    display: inline-block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+
+  .dropdown__item.dropdown:not(.open) .dropdown--nested {
+    display: none;
+  }
+
+.divider {
+  height: 1px;
+  margin: 1px 0;
+  overflow: hidden;
+  background-color: #797979;
+}

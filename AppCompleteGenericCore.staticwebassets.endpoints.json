@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "AppCompleteGenericCore.4ojjbihide.styles.css",
+      "AssetFile": "AppCompleteGenericCore.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VO2saAUi6G4otxiQlCcM4sRO7udxBN1l4a7vixWCbPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Feb 2026 18:52:19 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/MDriven.Components.WebAssembly/MDriven.Components.WebAssembly.8igxa1r66o.bundle.scp.css>; rel=\"preload\"; as=\"style\", <_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ojjbihide"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VO2saAUi6G4otxiQlCcM4sRO7udxBN1l4a7vixWCbPM="
+        },
+        {
+          "Name": "label",
+          "Value": "AppCompleteGenericCore.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "AppCompleteGenericCore.styles.css",
+      "AssetFile": "AppCompleteGenericCore.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VO2saAUi6G4otxiQlCcM4sRO7udxBN1l4a7vixWCbPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Feb 2026 18:52:19 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/MDriven.Components.WebAssembly/MDriven.Components.WebAssembly.8igxa1r66o.bundle.scp.css>; rel=\"preload\"; as=\"style\", <_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VO2saAUi6G4otxiQlCcM4sRO7udxBN1l4a7vixWCbPM="
+        }
+      ]
+    },
+    {
+      "Route": "Startup.htm",
+      "AssetFile": "Startup.htm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 06:45:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns="
+        }
+      ]
+    },
+    {
+      "Route": "Startup.l5ajf8vfk5.htm",
+      "AssetFile": "Startup.htm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Jul 2024 06:45:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5ajf8vfk5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1wYMaqb319DCD7WmqOOAhjMHBFkDKHriJ2Y3AWnnUns="
+        },
+        {
+          "Name": "label",
+          "Value": "Startup.htm"
+        }
+      ]
+    },
+    {
+      "Route": "_content/MDriven.Components.WebAssembly/MDriven.Components.WebAssembly.8igxa1r66o.bundle.scp.css",
+      "AssetFile": "_content/MDriven.Components.WebAssembly/MDriven.Components.WebAssembly.8igxa1r66o.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0O+kZP7xes8tDSnopC2Rf+hgre4Ja+07rjICNeqBDwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Feb 2026 18:51:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8igxa1r66o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0O+kZP7xes8tDSnopC2Rf+hgre4Ja+07rjICNeqBDwg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/MDriven.Components.WebAssembly/MDriven.Components.WebAssembly.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/MDriven.Components.WebAssembly/MDriven.Components.WebAssembly.bundle.scp.css",
+      "AssetFile": "_content/MDriven.Components.WebAssembly/MDriven.Components.WebAssembly.8igxa1r66o.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0O+kZP7xes8tDSnopC2Rf+hgre4Ja+07rjICNeqBDwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Feb 2026 18:51:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0O+kZP7xes8tDSnopC2Rf+hgre4Ja+07rjICNeqBDwg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Aug 2025 08:48:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Aug 2025 08:25:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        }
+      ]
+    }
+  ]
+}
