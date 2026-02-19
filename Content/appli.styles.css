@@ -1,0 +1,107 @@
+﻿:root {
+  --navbar-bg-color: 17, 43, 60 !important;
+  --navbar-brand-color: 255, 255, 255 !important;
+  --navbar-link-color: 255, 255, 255 !important;
+  --primary-color: 26, 80, 173 !important;
+  --primary-color-dark: 26, 79, 171 !important;
+  --text-on-primary: 255, 255, 255 !important;
+  --base-font-size: 16px !important;
+  --navbar-height: 78px !important;
+  --border-radius: 8px !important;
+  --dark-neutral: #182933;
+  --medium-neutral: #e3e8ee;
+  --neutral: #f3f6f9;
+  --light-neutral: #f7fafc;
+  --primary: #1a50ad;
+  --dark-primary: #112b3c;
+  --base-font-family: "Outfit", sans-serif;
+  --quickgrid-row-height: 28px;
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: end;
+}
+
+.dropdown__item {
+  background: white;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 16px;
+}
+
+#blazor-error-ui {
+  background: lightyellow;
+  bottom: 0;
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+  display: none;
+  left: 0;
+  padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+  #blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+  }
+
+#bodyWrapper {
+  width: 1000px;
+  justify-self: anchor-center;
+  margin: 5px;
+  background: whitesmoke;
+}
+
+body {
+  background-image: url('camouflageback.png');
+  background-repeat: repeat; /* This ensures the splinter pattern tiles */
+  background-attachment: fixed; /* Optional: keeps the background still while scrolling */
+}
+
+.navbar__brand {
+  color: white;
+}
+
+.navbar {
+  background: rgb(57, 62, 64);
+  color: white;
+  text-decoration: none;
+}
+
+.navbar__item {
+  color: white;
+}
+
+.navbar__link {
+  color: white;
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(69, 236, 150); /* LightGreen hex code */
+}
+
+.dropdown__menu {
+  background-color: rgb(57, 62, 64);
+  
+}
+.dropdown__item {
+  background-color: rgb(57, 62, 64);
+}
+
+.dropdown__item a {
+  color: white;
+}
+
