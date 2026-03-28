@@ -61,9 +61,7 @@ li {
 }
 
 body {
-  background-image: url('camouflageback.png');
-  background-repeat: repeat; /* This ensures the splinter pattern tiles */
-  background-attachment: fixed; /* Optional: keeps the background still while scrolling */
+
 }
 
 .navbar__brand {
