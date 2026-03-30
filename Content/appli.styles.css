@@ -103,3 +103,7 @@ body {
   color: white;
 }
 
+.caret {
+  display:none;
+}
+
