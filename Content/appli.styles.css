@@ -54,7 +54,7 @@ li {
   }
 
 #bodyWrapper {
-  width: 1000px;
+  width: 1170px;
   justify-self: anchor-center;
   margin: 5px;
   background: whitesmoke;
@@ -88,11 +88,15 @@ body {
 }
 
 .navbar a:hover {
-  color: rgb(69, 236, 150); /* LightGreen hex code */
+  color: snow;
+}
+.navbar a:focus {
+  color: snow;
 }
 
 .dropdown__menu {
   background-color: rgb(57, 62, 64);
+  position:absolute;
   
 }
 .dropdown__item {
@@ -106,4 +110,14 @@ body {
 .caret {
   display:none;
 }
+.tk-data-table__header-cell {
+ padding:0px;
+}
 
+.isgridrowdiv {
+  padding: 2px;
+}
+
+body {
+  padding-top: 2px;
+}
