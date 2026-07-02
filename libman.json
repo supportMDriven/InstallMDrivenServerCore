@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "js-cookie@2.2.1",
+      "destination": "lib/js-cookie/"
+    },
+    {
+      "library": "modernizr@2.8.3",
+      "destination": "lib/modernizr/"
+    }
+  ]
+}
