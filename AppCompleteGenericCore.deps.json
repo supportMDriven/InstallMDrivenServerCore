@@ -5268,7 +5268,7 @@
         "runtime": {
           "Eco.ModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17424"
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5284,7 +5284,7 @@
         "runtime": {
           "Eco.Modlr.ExtendedModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17424"
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5301,7 +5301,7 @@
         "runtime": {
           "Eco.Modlr.ModelEditor.NoUI.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17424"
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5330,8 +5330,8 @@
         },
         "runtime": {
           "MDriven.ASPNETIdentity.core.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5357,8 +5357,8 @@
         },
         "runtime": {
           "MDriven.Handles.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5370,8 +5370,8 @@
         },
         "runtime": {
           "MDriven.Interfaces.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5389,8 +5389,8 @@
         },
         "runtime": {
           "MDriven.LinqExtender.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5420,8 +5420,8 @@
         },
         "runtime": {
           "MDriven.MVC.Core.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5436,8 +5436,8 @@
         },
         "runtime": {
           "MDriven.Net.Http.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5451,8 +5451,8 @@
         },
         "runtime": {
           "MDriven.Persistence.MySQL.NetStandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5465,8 +5465,8 @@
         },
         "runtime": {
           "MDriven.Persistence.NetStandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5499,8 +5499,8 @@
         },
         "runtime": {
           "MDriven.Persistence.SqlServer.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5514,8 +5514,8 @@
         },
         "runtime": {
           "MDriven.Persistence.VistaDB.netstandard.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5530,16 +5530,16 @@
         },
         "runtime": {
           "MDriven.Persistence.WebApi.Core.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
       "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
         "runtime": {
           "MDriven.SharedInterfaces.WebAssembly.dll": {
-            "assemblyVersion": "7.2.0.17424",
-            "fileVersion": "7.2.0.17424"
+            "assemblyVersion": "7.2.0.17426",
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
@@ -5555,7 +5555,7 @@
         "runtime": {
           "Modlr.Plugins.core.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17424"
+            "fileVersion": "7.2.0.17426"
           }
         }
       },
