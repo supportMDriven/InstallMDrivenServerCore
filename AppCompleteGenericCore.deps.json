@@ -52,11 +52,11 @@
           "MDriven.MiniBlazor": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
           "MailKit": "4.16.0",
           "Microsoft.AspNetCore.App.Internal.Assets": "10.0.7",
           "Microsoft.AspNetCore.Components.Web": "10.0.10",
@@ -2422,7 +2422,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0"
+          "MDriven.Persistence.NetStandard": "1.0.0"
         },
         "compile": {
           "AppCompleteGeneric.EcoSpace.netstandard.dll": {}
@@ -2594,7 +2594,7 @@
       "MDriven.Persistence.MySQL.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Bcl.AsyncInterfaces": "10.0.2",
           "MySql.Data": "8.3.0",
           "System.ValueTuple": "4.6.1"
@@ -2603,7 +2603,7 @@
           "MDriven.Persistence.MySQL.NetStandard.dll": {}
         }
       },
-      "MDriven.Persistence.netStandard/1.0.0": {
+      "MDriven.Persistence.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
@@ -2611,13 +2611,13 @@
           "System.ValueTuple": "4.6.1"
         },
         "compile": {
-          "MDriven.Persistence.NetStandard.dll": {}
+          "MDriven.Persistence.netStandard.dll": {}
         }
       },
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Npgsql": "8.0.5",
           "System.ValueTuple": "4.6.1"
         },
@@ -2631,7 +2631,7 @@
           "Azure.Identity": "1.17.1",
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.SqlServer.Types": "14.0.1016.290",
           "System.ClientModel": "1.9.0",
@@ -2645,7 +2645,7 @@
       "MDriven.Persistence.VistaDB.netstandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Bcl.AsyncInterfaces": "10.0.2",
           "System.ValueTuple": "4.6.1",
           "VistaDB.6": "6.1.2"
@@ -2660,7 +2660,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -2707,11 +2707,11 @@
           "MDriven.MiniBlazor": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
           "MailKit": "4.16.0",
           "Microsoft.AspNetCore.App.Internal.Assets": "10.0.7",
           "Microsoft.AspNetCore.Components.Web": "10.0.10",
@@ -5230,7 +5230,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0"
+          "MDriven.Persistence.NetStandard": "1.0.0"
         },
         "runtime": {
           "AppCompleteGeneric.EcoSpace.netstandard.dll": {
@@ -5444,7 +5444,7 @@
       "MDriven.Persistence.MySQL.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Bcl.AsyncInterfaces": "10.0.2",
           "MySql.Data": "8.3.0",
           "System.ValueTuple": "4.6.1"
@@ -5456,7 +5456,7 @@
           }
         }
       },
-      "MDriven.Persistence.netStandard/1.0.0": {
+      "MDriven.Persistence.NetStandard/1.0.0": {
         "dependencies": {
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
@@ -5464,7 +5464,7 @@
           "System.ValueTuple": "4.6.1"
         },
         "runtime": {
-          "MDriven.Persistence.NetStandard.dll": {
+          "MDriven.Persistence.netStandard.dll": {
             "fileVersion": "0.0.0.0"
           }
         }
@@ -5472,7 +5472,7 @@
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Npgsql": "8.0.5",
           "System.ValueTuple": "4.6.1"
         },
@@ -5489,7 +5489,7 @@
           "Azure.Identity": "1.17.1",
           "MDriven.Handles.netStandard": "1.0.0",
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Data.SqlClient": "5.2.2",
           "Microsoft.SqlServer.Types": "14.0.1016.290",
           "System.ClientModel": "1.9.0",
@@ -5506,7 +5506,7 @@
       "MDriven.Persistence.VistaDB.netstandard/1.0.0": {
         "dependencies": {
           "MDriven.Interfaces.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Microsoft.Bcl.AsyncInterfaces": "10.0.2",
           "System.ValueTuple": "4.6.1",
           "VistaDB.6": "6.1.2"
@@ -5524,7 +5524,7 @@
           "MDriven.Interfaces.netStandard": "1.0.0",
           "MDriven.LinqExtender.netStandard": "1.0.0",
           "MDriven.Net.Http.netStandard": "1.0.0",
-          "MDriven.Persistence.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -6128,7 +6128,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MDriven.Persistence.netStandard/1.0.0": {
+    "MDriven.Persistence.NetStandard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
