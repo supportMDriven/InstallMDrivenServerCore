@@ -54,6 +54,7 @@
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
           "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
+          "MDriven.Persistence.SQLite.NetStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
@@ -64,7 +65,7 @@
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "10.0.11",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.20",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.20",
-          "Microsoft.Extensions.Primitives": "10.0.2",
+          "Microsoft.Extensions.Primitives": "10.0.3",
           "Microsoft.NETCore.Platforms": "7.0.4",
           "Microsoft.SqlServer.Compact": "4.0.8876.1",
           "MimeKit": "4.16.0",
@@ -2143,7 +2144,7 @@
         }
       },
       "Microsoft.Extensions.FileProviders.Embedded/3.1.10": {},
-      "Microsoft.Extensions.Primitives/10.0.2": {},
+      "Microsoft.Extensions.Primitives/10.0.3": {},
       "Microsoft.Identity.Client/4.78.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Abstractions": "8.14.0"
@@ -2308,6 +2309,36 @@
       "SkiaSharp.NativeAssets.Linux/3.119.0": {},
       "SkiaSharp.NativeAssets.macOS/3.119.0": {},
       "SkiaSharp.NativeAssets.Win32/3.119.0": {},
+      "SQLite/3.13.0": {},
+      "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.6",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.6",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.6": {
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.6": {},
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.6": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.6"
+        },
+        "compile": {
+          "lib/net5.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.119": {
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        }
+      },
       "System.ClientModel/1.14.0": {
         "dependencies": {
           "System.Memory.Data": "10.0.3"
@@ -2322,6 +2353,11 @@
         },
         "compile": {
           "lib/net8.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Data.SQLite.Core/1.0.119": {
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "1.0.119"
         }
       },
       "System.Data.SqlServerCe_unofficial/4.0.8482.1": {},
@@ -2611,7 +2647,7 @@
           "System.ValueTuple": "4.6.2"
         },
         "compile": {
-          "MDriven.Persistence.netStandard.dll": {}
+          "MDriven.Persistence.NetStandard.dll": {}
         }
       },
       "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
@@ -2623,6 +2659,20 @@
         },
         "compile": {
           "MDriven.Persistence.PostgreSQL.netStandard.dll": {}
+        }
+      },
+      "MDriven.Persistence.SQLite.NetStandard/1.0.0": {
+        "dependencies": {
+          "MDriven.Interfaces.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.10",
+          "SQLite": "3.13.0",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.6",
+          "System.Data.SQLite.Core": "1.0.119",
+          "System.ValueTuple": "4.6.2"
+        },
+        "compile": {
+          "MDriven.Persistence.SQLite.NetStandard.dll": {}
         }
       },
       "MDriven.Persistence.SqlServer.netStandard/1.0.0": {
@@ -2709,6 +2759,7 @@
           "MDriven.Persistence.MySQL.NetStandard": "1.0.0",
           "MDriven.Persistence.NetStandard": "1.0.0",
           "MDriven.Persistence.PostgreSQL.netStandard": "1.0.0",
+          "MDriven.Persistence.SQLite.NetStandard": "1.0.0",
           "MDriven.Persistence.SqlServer.netStandard": "1.0.0",
           "MDriven.Persistence.VistaDB.netstandard": "1.0.0",
           "MDriven.Persistence.WebApi.Core": "1.0.0",
@@ -2719,7 +2770,7 @@
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "10.0.11",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.20",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.20",
-          "Microsoft.Extensions.Primitives": "10.0.2",
+          "Microsoft.Extensions.Primitives": "10.0.3",
           "Microsoft.NETCore.Platforms": "7.0.4",
           "Microsoft.SqlServer.Compact": "4.0.8876.1",
           "MimeKit": "4.16.0",
@@ -5034,6 +5085,58 @@
           }
         }
       },
+      "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.6",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.6",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.0.6.1341",
+            "fileVersion": "2.0.6.1341"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.6.1341",
+            "fileVersion": "2.0.6.1341"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.6": {
+        "native": {
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.6": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.6"
+        },
+        "runtime": {
+          "lib/net5.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "2.0.6.1341",
+            "fileVersion": "2.0.6.1341"
+          }
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.119": {
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.119.0",
+            "fileVersion": "1.0.119.0"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/SQLite.Interop.dll": {
+            "fileVersion": "1.0.119.0"
+          }
+        }
+      },
       "System.ClientModel/1.14.0": {
         "dependencies": {
           "System.Memory.Data": "10.0.3"
@@ -5054,6 +5157,11 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
           }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.119": {
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "1.0.119"
         }
       },
       "System.Drawing.Common/8.0.10": {
@@ -5268,7 +5376,7 @@
         "runtime": {
           "Eco.ModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17477"
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5284,7 +5392,7 @@
         "runtime": {
           "Eco.Modlr.ExtendedModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17477"
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5301,7 +5409,7 @@
         "runtime": {
           "Eco.Modlr.ModelEditor.NoUI.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17477"
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5330,8 +5438,8 @@
         },
         "runtime": {
           "MDriven.ASPNETIdentity.core.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5357,8 +5465,8 @@
         },
         "runtime": {
           "MDriven.Handles.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5370,8 +5478,8 @@
         },
         "runtime": {
           "MDriven.Interfaces.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5389,8 +5497,8 @@
         },
         "runtime": {
           "MDriven.LinqExtender.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5420,8 +5528,8 @@
         },
         "runtime": {
           "MDriven.MVC.Core.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5436,8 +5544,8 @@
         },
         "runtime": {
           "MDriven.Net.Http.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5451,8 +5559,8 @@
         },
         "runtime": {
           "MDriven.Persistence.MySQL.NetStandard.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5464,8 +5572,9 @@
           "System.ValueTuple": "4.6.2"
         },
         "runtime": {
-          "MDriven.Persistence.netStandard.dll": {
-            "fileVersion": "0.0.0.0"
+          "MDriven.Persistence.NetStandard.dll": {
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5480,6 +5589,23 @@
           "MDriven.Persistence.PostgreSQL.netStandard.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MDriven.Persistence.SQLite.NetStandard/1.0.0": {
+        "dependencies": {
+          "MDriven.Interfaces.netStandard": "1.0.0",
+          "MDriven.Persistence.NetStandard": "1.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.10",
+          "SQLite": "3.13.0",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.6",
+          "System.Data.SQLite.Core": "1.0.119",
+          "System.ValueTuple": "4.6.2"
+        },
+        "runtime": {
+          "MDriven.Persistence.SQLite.NetStandard.dll": {
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5498,8 +5624,8 @@
         },
         "runtime": {
           "MDriven.Persistence.SqlServer.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5513,8 +5639,8 @@
         },
         "runtime": {
           "MDriven.Persistence.VistaDB.netstandard.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5529,16 +5655,16 @@
         },
         "runtime": {
           "MDriven.Persistence.WebApi.Core.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
       "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
         "runtime": {
           "MDriven.SharedInterfaces.WebAssembly.dll": {
-            "assemblyVersion": "7.2.0.17477",
-            "fileVersion": "7.2.0.17477"
+            "assemblyVersion": "7.2.0.17484",
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5554,7 +5680,7 @@
         "runtime": {
           "Modlr.Plugins.core.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17477"
+            "fileVersion": "7.2.0.17484"
           }
         }
       },
@@ -5955,6 +6081,41 @@
       "path": "skiasharp.nativeassets.win32/3.119.0",
       "hashPath": "skiasharp.nativeassets.win32.3.119.0.nupkg.sha512"
     },
+    "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zssYqiaucyGArZfg74rJuzK0ewgZiidsRVrZTmP7JLNvK806gXg6PGA46XzoJGpNPPA5uRcumwvVp6YTYxtQ5w==",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.0.6",
+      "hashPath": "sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vh8n0dTvwXkCGur2WqQTITvk4BUO8i8h9ucSx3wwuaej3s2S6ZC0R7vqCTf9TfS/I4QkXO6g3W2YQIRFkOcijA==",
+      "path": "sqlitepclraw.core/2.0.6",
+      "hashPath": "sqlitepclraw.core.2.0.6.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlstskMKalKQl0H2uLNe0viBM6fvAGLWqKZUQ3twX5y1tSOZKe0+EbXopQKYdbjJytNGI6y5WSKjpI+kVr2Ckg==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.6",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-peXLJbhU+0clVBIPirihM1NoTBqw8ouBpcUsVMlcZ4k6fcL2hwgkctVB2Nt5VsbnOJcPspQL5xQK7QvLpxkMgg==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.6",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512"
+    },
+    "Stub.System.Data.SQLite.Core.NetStandard/1.0.119": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dI7ngiCNgdm+n00nQvFTa+LbHvE9MIQXwMSLRzJI/KAJ7G1WmCachsvfE1CD6xvb3OXJvYYEfv3+S/LHyhN0Rg==",
+      "path": "stub.system.data.sqlite.core.netstandard/1.0.119",
+      "hashPath": "stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512"
+    },
     "System.ClientModel/1.14.0": {
       "type": "package",
       "serviceable": true,
@@ -5968,6 +6129,13 @@
       "sha512": "sha512-JlYi9XVvIREURRUlGMr1F6vOFLk7YSY4p1vHo4kX3tQ0AGrjqlRWHDi66ImHhy6qwXBG3BJ6Y1QlYQ+Qz6Xgww==",
       "path": "system.configuration.configurationmanager/8.0.0",
       "hashPath": "system.configuration.configurationmanager.8.0.0.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.119": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhQB8HVtRA+OOYw8UTD1F1kU+nGJ0/OZvH1JmlVUI4bGvgVEWeX1NcHjA765NvUoRVuCPlt8PrEpZ1thSsk1jg==",
+      "path": "system.data.sqlite.core/1.0.119",
+      "hashPath": "system.data.sqlite.core.1.0.119.nupkg.sha512"
     },
     "System.Drawing.Common/8.0.10": {
       "type": "package",
@@ -6134,6 +6302,11 @@
       "sha512": ""
     },
     "MDriven.Persistence.PostgreSQL.netStandard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDriven.Persistence.SQLite.NetStandard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -7731,12 +7904,12 @@
       "path": "microsoft.extensions.fileproviders.embedded/3.1.10",
       "hashPath": "microsoft.extensions.fileproviders.embedded.3.1.10.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/10.0.2": {
+    "Microsoft.Extensions.Primitives/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QmSiO+oLBEooGgB3i0GRXyeYRDHjllqt3k365jwfZlYWhvSHA3UL2NEVV5m8aZa041eIlblo6KMI5txvTMpTwA==",
-      "path": "microsoft.extensions.primitives/10.0.2",
-      "hashPath": "microsoft.extensions.primitives.10.0.2.nupkg.sha512"
+      "sha512": "sha512-GEcpTwo7sUoLGGNTqV1FZEuL+tTD9m81NX/mh099dqGNna07/UGZShKQNZRw4hv6nlliSUwYQgSYc7OR99Jufg==",
+      "path": "microsoft.extensions.primitives/10.0.3",
+      "hashPath": "microsoft.extensions.primitives.10.0.3.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/7.0.4": {
       "type": "package",
@@ -7758,6 +7931,13 @@
       "sha512": "sha512-YE1vNn0Nyw2PWtv7hw1PYkKJO0itFiQp9vSqGppZUKzQJqwp28a2jgdCMPfYtOiR8KCnDgZqQoynqJRRaE2ZVg==",
       "path": "skiasharp.nativeassets.macos/3.119.0",
       "hashPath": "skiasharp.nativeassets.macos.3.119.0.nupkg.sha512"
+    },
+    "SQLite/3.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "path": "sqlite/3.13.0",
+      "hashPath": "sqlite.3.13.0.nupkg.sha512"
     },
     "System.Data.SqlServerCe_unofficial/4.0.8482.1": {
       "type": "package",
