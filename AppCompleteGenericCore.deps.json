@@ -60,9 +60,9 @@
           "MDriven.Persistence.WebApi.Core": "1.0.0",
           "MailKit": "4.16.0",
           "Microsoft.AspNetCore.App.Internal.Assets": "10.0.7",
-          "Microsoft.AspNetCore.Components.Web": "10.0.11",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "10.0.11",
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "10.0.11",
+          "Microsoft.AspNetCore.Components.Web": "10.0.12",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "10.0.12",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "10.0.12",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.20",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.20",
           "Microsoft.Extensions.Primitives": "10.0.3",
@@ -2010,7 +2010,7 @@
           "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Web/10.0.11": {},
+      "Microsoft.AspNetCore.Components.Web/10.0.12": {},
       "Microsoft.AspNetCore.Components.WebAssembly/8.0.20": {
         "dependencies": {
           "Microsoft.JSInterop.WebAssembly": "8.0.20"
@@ -2024,7 +2024,7 @@
           "lib/net8.0/Microsoft.AspNetCore.Http.Connections.Client.dll": {}
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/10.0.11": {
+      "Microsoft.AspNetCore.JsonPatch/10.0.12": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.4"
         },
@@ -2032,9 +2032,9 @@
           "lib/net10.0/Microsoft.AspNetCore.JsonPatch.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/10.0.11": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/10.0.12": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "10.0.11",
+          "Microsoft.AspNetCore.JsonPatch": "10.0.12",
           "Newtonsoft.Json": "13.0.4",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
@@ -2051,11 +2051,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/10.0.11": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/10.0.12": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.0",
-          "Microsoft.Extensions.DependencyModel": "10.0.11"
+          "Microsoft.Extensions.DependencyModel": "10.0.12"
         },
         "compile": {
           "lib/net10.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
@@ -2138,7 +2138,7 @@
           "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyModel/10.0.11": {
+      "Microsoft.Extensions.DependencyModel/10.0.12": {
         "compile": {
           "lib/net10.0/Microsoft.Extensions.DependencyModel.dll": {}
         }
@@ -2765,9 +2765,9 @@
           "MDriven.Persistence.WebApi.Core": "1.0.0",
           "MailKit": "4.16.0",
           "Microsoft.AspNetCore.App.Internal.Assets": "10.0.7",
-          "Microsoft.AspNetCore.Components.Web": "10.0.11",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "10.0.11",
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "10.0.11",
+          "Microsoft.AspNetCore.Components.Web": "10.0.12",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "10.0.12",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "10.0.12",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.20",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.20",
           "Microsoft.Extensions.Primitives": "10.0.3",
@@ -4552,27 +4552,27 @@
           }
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/10.0.11": {
+      "Microsoft.AspNetCore.JsonPatch/10.0.12": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.4"
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "10.0.11.0",
-            "fileVersion": "10.0.1126.37416"
+            "assemblyVersion": "10.0.12.0",
+            "fileVersion": "10.0.1226.42308"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/10.0.11": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/10.0.12": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "10.0.11",
+          "Microsoft.AspNetCore.JsonPatch": "10.0.12",
           "Newtonsoft.Json": "13.0.4",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "10.0.11.0",
-            "fileVersion": "10.0.1126.37416"
+            "assemblyVersion": "10.0.12.0",
+            "fileVersion": "10.0.1226.42308"
           }
         }
       },
@@ -4588,16 +4588,16 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/10.0.11": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/10.0.12": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.0",
-          "Microsoft.Extensions.DependencyModel": "10.0.11"
+          "Microsoft.Extensions.DependencyModel": "10.0.12"
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
-            "assemblyVersion": "10.0.11.0",
-            "fileVersion": "10.0.1126.37416"
+            "assemblyVersion": "10.0.12.0",
+            "fileVersion": "10.0.1226.42308"
           }
         }
       },
@@ -4827,11 +4827,11 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyModel/10.0.11": {
+      "Microsoft.Extensions.DependencyModel/10.0.12": {
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.DependencyModel.dll": {
-            "assemblyVersion": "10.0.0.11",
-            "fileVersion": "10.0.1126.37416"
+            "assemblyVersion": "10.0.0.12",
+            "fileVersion": "10.0.1226.42308"
           }
         }
       },
@@ -5376,7 +5376,7 @@
         "runtime": {
           "Eco.ModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17524"
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5392,7 +5392,7 @@
         "runtime": {
           "Eco.Modlr.ExtendedModelLayer.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17524"
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5409,7 +5409,7 @@
         "runtime": {
           "Eco.Modlr.ModelEditor.NoUI.netstandard.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17524"
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5438,8 +5438,8 @@
         },
         "runtime": {
           "MDriven.ASPNETIdentity.core.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5465,8 +5465,8 @@
         },
         "runtime": {
           "MDriven.Handles.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5478,8 +5478,8 @@
         },
         "runtime": {
           "MDriven.Interfaces.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5497,8 +5497,8 @@
         },
         "runtime": {
           "MDriven.LinqExtender.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5528,8 +5528,8 @@
         },
         "runtime": {
           "MDriven.MVC.Core.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5544,8 +5544,8 @@
         },
         "runtime": {
           "MDriven.Net.Http.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5559,8 +5559,8 @@
         },
         "runtime": {
           "MDriven.Persistence.MySQL.NetStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5573,8 +5573,8 @@
         },
         "runtime": {
           "MDriven.Persistence.NetStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5604,8 +5604,8 @@
         },
         "runtime": {
           "MDriven.Persistence.SQLite.NetStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5624,8 +5624,8 @@
         },
         "runtime": {
           "MDriven.Persistence.SqlServer.netStandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5639,8 +5639,8 @@
         },
         "runtime": {
           "MDriven.Persistence.VistaDB.netstandard.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5655,16 +5655,16 @@
         },
         "runtime": {
           "MDriven.Persistence.WebApi.Core.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
       "MDriven.SharedInterfaces.WebAssembly/1.0.0": {
         "runtime": {
           "MDriven.SharedInterfaces.WebAssembly.dll": {
-            "assemblyVersion": "7.2.0.17524",
-            "fileVersion": "7.2.0.17524"
+            "assemblyVersion": "7.2.0.17525",
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5680,7 +5680,7 @@
         "runtime": {
           "Modlr.Plugins.core.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.0.17524"
+            "fileVersion": "7.2.0.17525"
           }
         }
       },
@@ -5808,19 +5808,19 @@
       "path": "microsoft.aspnetcore.http.connections.client/8.0.20",
       "hashPath": "microsoft.aspnetcore.http.connections.client.8.0.20.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/10.0.11": {
+    "Microsoft.AspNetCore.JsonPatch/10.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IE0B7q5/bUAHoOvffJnOfaf5zIxeEpr5Jel4ZLzLyi8L4v1ihYwG88lLn7y2U3P9QXvY3lOG5TFLnF3zXZ+ykg==",
-      "path": "microsoft.aspnetcore.jsonpatch/10.0.11",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.10.0.11.nupkg.sha512"
+      "sha512": "sha512-/B94WvMCmIU29+pZ0A1q30Umy06Q+0sAeE1KvK10JpUVnFtMTtImVnMhC7BdygJMHwG0xJNHSZX5ug29WldnxA==",
+      "path": "microsoft.aspnetcore.jsonpatch/10.0.12",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.10.0.12.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/10.0.11": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/10.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+bLLpFxDgwyS4cqgQqpVxXdAd+0v11WHl50zi6K74WzKZSDYjAQHV+3Bn9BER8rHKg9ImBqUC+daakSeXkoQKw==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/10.0.11",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.10.0.11.nupkg.sha512"
+      "sha512": "sha512-/zn5QXe8pVqeQXvd58w3Z5i5HlmvlmgZvCrlXPgC55ftvTHD8oV0Om6jCAtbJjQ5DPzFp0GXjiRKdh1BTqDw0w==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/10.0.12",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.10.0.12.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
       "type": "package",
@@ -5829,12 +5829,12 @@
       "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.0",
       "hashPath": "microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/10.0.11": {
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/10.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4UHhnw1sDl+kh9IwWrb16GYrkIRHCCz2xnI5jsv+L16hS7uNds777cgOi27ZETQBZTljlR+A7wQ7m/+pMXRz+g==",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/10.0.11",
-      "hashPath": "microsoft.aspnetcore.mvc.razor.runtimecompilation.10.0.11.nupkg.sha512"
+      "sha512": "sha512-KPTkhWNPUAoYtUJH/b/iGjiKAwDKPI7eeOhzyyIUlZtUGZ8ireVP254J1JXqHb/1XIGo8XJk9gf1P1KZFxd68w==",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/10.0.12",
+      "hashPath": "microsoft.aspnetcore.mvc.razor.runtimecompilation.10.0.12.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Owin/8.0.20": {
       "type": "package",
@@ -5913,12 +5913,12 @@
       "path": "microsoft.dotnet.platformabstractions/3.0.0",
       "hashPath": "microsoft.dotnet.platformabstractions.3.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyModel/10.0.11": {
+    "Microsoft.Extensions.DependencyModel/10.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PJPtFYsZ+r+uz9qqXWUTEyKeJ1EiBGIJtqavkg9ZXijjGSFAk4Fgi5sqIxj+uAyLZwEKgexDUQXhWhvU6l3+og==",
-      "path": "microsoft.extensions.dependencymodel/10.0.11",
-      "hashPath": "microsoft.extensions.dependencymodel.10.0.11.nupkg.sha512"
+      "sha512": "sha512-rDPQVTxh/zMTDF7wHlRqL/jjZbwjAP6315ydBxj51pZW7qkAwGwjoSiMutxYI91xmOE3ZXjAGHbYRqzyJV7Urw==",
+      "path": "microsoft.extensions.dependencymodel/10.0.12",
+      "hashPath": "microsoft.extensions.dependencymodel.10.0.12.nupkg.sha512"
     },
     "Microsoft.Identity.Client/4.78.0": {
       "type": "package",
@@ -7883,12 +7883,12 @@
       "path": "microsoft.aspnetcore.app.internal.assets/10.0.7",
       "hashPath": "microsoft.aspnetcore.app.internal.assets.10.0.7.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Web/10.0.11": {
+    "Microsoft.AspNetCore.Components.Web/10.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AwLo82+JiojRa0WB5pCRtZgbYZWPocUlqbFkeeOcZNwgr8ayJo1/FNrCTwxuq2Jw5MrKgfB2VULMvzmNyDyEVQ==",
-      "path": "microsoft.aspnetcore.components.web/10.0.11",
-      "hashPath": "microsoft.aspnetcore.components.web.10.0.11.nupkg.sha512"
+      "sha512": "sha512-VFmcGnah8P8uxJ+/olJgw0e3IX6THGmxqKH+5E7K/kRKjcLXIYNTKsE4EyiJG8AjtxH65aKNUsobpI4Zqc6hmg==",
+      "path": "microsoft.aspnetcore.components.web/10.0.12",
+      "hashPath": "microsoft.aspnetcore.components.web.10.0.12.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/3.3.2": {
       "type": "package",
